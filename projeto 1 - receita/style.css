@@ -1,5 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   font-family: "Alice", serif;
+  font-weight: 500;
   line-height: 150%;
   color: #573A37;
 }
@@ -17,6 +23,9 @@ body {
   margin: 48px auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
+#about p + p {
+  margin-top: 12px;
+}
 
 img {
   border-radius: 16px;
@@ -30,12 +39,32 @@ img {
   background-color: rgba(57, 38, 24, 0.5);
   z-index: -1;
 }
+main {
+  padding: 24px;
+}
+
+section + section {
+  margin-top: 20px;
+}
+
 h1 {
   line-height: 140%;
+  font-weight: 300;
   font-size: 40px;
-  color: #291B1A;
 }
+
 h2 {
+  font-weight: 300;
   font-size: 24px;
+
+}
+
+h1, h2 {
   color: #291B1A;
+  margin-top: 10px;
+  margin-bottom: 4px;
+  line-height: 150%;
+}
+ul {
+  padding-left: 24px;
 }
