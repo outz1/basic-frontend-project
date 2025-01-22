@@ -1,0 +1,54 @@
+* {
+  font-family: "Open Sans", serif;
+  margin-left: 80px;
+  margin-right: 80px;
+  text-align: left;
+}
+:root {
+  margin-left: 80px;
+  border: #D9D9D9;
+  background-color: #F5F4F0;
+}
+h1 {
+  margin-top: 0%;
+  margin-left: 80px;
+  line-height: 140%;
+  font-weight: bold;
+  font-size: 36px;
+}
+p {
+  color: red;
+  margin-top: 88px;
+  margin-bottom: 0%;
+}
+img {
+  border-radius: 28px;
+  height: 660px;
+  width: 1120px;
+}
+#Busan {
+  text-align: center;
+}
+.busan-ex {
+  padding: auto;
+  font-size: 16px;
+  font-style: italic;
+  width: 1120px;
+  height: 37px;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+hr {
+  border-color: #aaa;
+  box-sizing: border-box;
+  width: 1120px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.templo {
+  margin-top: 64px;
+  width: 1120px;
+
+}
