@@ -1,4 +1,5 @@
 * {
+  text-align: center;
   font-family: "Open Sans", serif;
   margin-left: 80px;
   margin-right: 80px;
@@ -17,7 +18,9 @@ h1 {
   font-size: 36px;
 }
 p {
-  color: red;
+  font-weight: 700;
+  font-size: 16px auto;
+  color: #E1624F;
   margin-top: 88px;
   margin-bottom: 0%;
 }
@@ -25,9 +28,6 @@ img {
   border-radius: 28px;
   height: 660px;
   width: 1120px;
-}
-#Busan {
-  text-align: center;
 }
 .busan-ex {
   padding: auto;
@@ -40,15 +40,33 @@ img {
   margin-bottom: 40px;
 }
 hr {
-  border-color: #aaa;
+  border-color: #cfcfcf;
   box-sizing: border-box;
   width: 1120px;
   margin-left: 80px;
   margin-right: 80px;
 }
+.destinos {
+  margin-bottom: 64px;
+}
 
 .templo {
-  margin-top: 64px;
   width: 1120px;
-
+  height: 350px;
+}
+hr + p {
+  margin-bottom: 24px;
+}
+h3 {
+  font-weight: 1200px;
+  font-size: 28px;
+  font-size: 16px;
+}
+.hist {
+  margin-top: 24px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+ul li::marker {
+  color: #333333;
 }
