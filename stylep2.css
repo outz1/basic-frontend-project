@@ -1,21 +1,34 @@
 * {
-  text-align: center;
   font-family: "Open Sans", serif;
-  margin-left: 80px;
-  margin-right: 80px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   text-align: left;
+  border: #D9D9D9;
 }
 :root {
-  margin-left: 80px;
-  border: #D9D9D9;
+  text-align: center;
   background-color: #F5F4F0;
 }
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column; 
+  background-color: #F5F4F0; 
+  min-height: 100vh; 
+}
+.container {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+}
 h1 {
-  margin-top: 0%;
-  margin-left: 80px;
   line-height: 140%;
   font-weight: bold;
   font-size: 36px;
+  margin-bottom: 40px;
 }
 p {
   font-weight: 700;
@@ -39,18 +52,17 @@ img {
   margin-top: 24px;
   margin-bottom: 40px;
 }
-hr {
-  border-color: #cfcfcf;
-  box-sizing: border-box;
-  width: 1120px;
-  margin-left: 80px;
-  margin-right: 80px;
-}
 .destinos {
   margin-bottom: 64px;
 }
-
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 36px 0;
+  background-color: #d9d9d9;
+}
 .templo {
+  object-fit: cover;
   width: 1120px;
   height: 350px;
 }
@@ -58,15 +70,58 @@ hr + p {
   margin-bottom: 24px;
 }
 h3 {
-  font-weight: 1200px;
-  font-size: 28px;
-  font-size: 16px;
+  font-size: 32px;
 }
 .hist {
   margin-top: 24px;
   font-weight: bold;
   margin-bottom: 0px;
 }
-ul li::marker {
+li::marker {
   color: #333333;
+}
+li {
+  font-size: 16px;
+  font-weight: bold;
+  color: blue;
+}
+.templo-beo {
+  object-fit: cover;
+  width: 1120px;
+  height: 350px;
+  margin-top: 36px;
+}
+.templo-ex {
+  color: #333333;
+  font-weight: 500px;
+}
+.park {
+  object-fit: cover;
+  width: 1120px;
+  height: 350px;
+  margin-top: 36px;
+  margin-bottom: 20px;
+}
+.one {
+  color: purple
+}
+.two {
+  color: rgb(128, 53, 66)
+}
+.busan-fi {
+  margin-bottom: 24px;
+  margin-top: 24px;
+  text-align: center;
+  font-style: normal;
+}
+footer {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto; 
+  padding: 24px 0;
+  text-align: center;
+}
+footer img {
+  height: 16px;
+  width: 16px;  
 }
